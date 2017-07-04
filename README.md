@@ -7,8 +7,8 @@ Requerimentos
 * Gtk+ 3.0
 
 Instalação
-Abra um terminal(Cntrl+Alt+T) e vá até a pasta onde se encontra o arquivo install.sh baixado.
-Exemplo: Se o arquivo estiver em ~/Downloads/notas-adesivas, digite
+ Abra um terminal(Cntrl+Alt+T) e vá até a pasta onde se encontra o arquivo install.sh baixado.
+ Exemplo: Se o arquivo estiver em ~/Downloads/notas-adesivas, digite
 
 $ cd ~/Downloads/notas-adesivas
 
