@@ -18,7 +18,6 @@ cp ./codigos/notaslib/icones/notas-adesivas.ico /usr/share/notas-adesivas/notas-
 ln -s /usr/share/notas-adesivas/notas-adesivas-gui.py /usr/bin/notas-adesivas
 chmod 777 /usr/bin/notas-adesivas
 chmod 777 /usr/share/notas-adesivas/notas-adesivas.ico
-/etc/init.d/update-rc.d notas-adesivas defaults
 echo "Instalação concluída."
 
 
