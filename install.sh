@@ -15,10 +15,10 @@ mkdir /usr/share/notas-adesivas/notaslib
 cp -R ./codigos/notaslib/ /usr/share/notas-adesivas/
 cp ./codigos/notas-adesivas-gui.py /usr/share/notas-adesivas/notas-adesivas-gui.py
 cp ./codigos/notaslib/icones/notas-adesivas.ico /usr/share/notas-adesivas/notas-adesivas.ico
-#cp ./notas-adesivas.desktop /usr/share/applications/notas-adesivas-gui.desktop
 ln -s /usr/share/notas-adesivas/notas-adesivas-gui.py /usr/bin/notas-adesivas
 chmod 777 /usr/bin/notas-adesivas
 chmod 777 /usr/share/notas-adesivas/notas-adesivas.ico
+cd /etc/init.d/update-rc.d notas-adesivas defaults
 echo "Instalação concluída."
 
 
