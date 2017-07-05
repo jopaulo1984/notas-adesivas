@@ -1,6 +1,5 @@
 #!/bin/bash
 
-su
 remove() {
     if [ $1 = "-f" ];
     then
@@ -16,5 +15,4 @@ remove() {
 remove "-d" "/usr/share/notas-adesivas"
 remove "-f" "/usr/bin/notas-adesivas"
 remove "-f" "/usr/share/applications/notas-adesivas-gui.desktop"
-exit
-remove "-f" "~/.config/autostart/notas-adesivas-gui.desktop"
+remove "-f" "${HOME}/.config/autostart/notas-adesivas-gui.desktop"
