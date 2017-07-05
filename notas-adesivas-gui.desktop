@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=Notas Adesivas
-Name[pt_BR]=Notas Adesivas
+Name[pt_BR]=notas-adesivas-gui
 Comment=Tome nota!!!
 Comment[pt_BR]=Tome nota!!!
 GenericName=Notas Adesivas
@@ -11,5 +11,5 @@ Keywords[pt_BR]=Nota;Agenda;Esquecer;Anotações;Anotação;Adesiva;Horário;lem
 Exec=notas-adesivas
 Terminal=false
 Type=Application
-#Icon=/usr/share/notas-adesivas/notas-adesivas.ico
+Icon=/usr/share/notas-adesivas/notas-adesivas.ico
 Categories=GNOME;GTK;Utility;Application;
