@@ -1,6 +1,6 @@
 #!/bin/bash
 
-exec sh uninstall.sh
+sh uninstall.sh
 
 $dirnotas="/usr/share/notas-adesivas"
 
