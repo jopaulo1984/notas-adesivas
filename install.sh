@@ -17,4 +17,3 @@ chmod 777 /usr/share/notas-adesivas/notas-adesivas.ico
 cp ./notas-adesivas-gui.desktop "${HOME}/.config/autostart/notas-adesivas-gui.desktop"
 chmod 777 "${HOME}/.config/autostart/notas-adesivas-gui.desktop"
 echo "Instalação concluída."
-exec notas-adesivas
