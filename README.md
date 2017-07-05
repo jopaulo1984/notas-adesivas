@@ -8,16 +8,24 @@ Requerimentos
 
 Instalação
 
-Abra um terminal(Cntrl+Alt+T) e vá até a pasta onde se encontra o arquivo install.sh baixado.
+Baixe o arquivo .zip e o descompacte e uma pasta de fácil acesso. Exemplo: /home/usuário/notas-adesivas. Abra um terminal(Cntrl+Alt+T) e vá até a pasta onde se encontra o arquivo install.sh baixado.
 
-Exemplo: 
+Se o arquivo estiver em /home/usuário/notas-adesivas, digite
 
-Se o arquivo estiver em ~/Downloads/notas-adesivas, digite
-
-$ cd ~/Downloads/notas-adesivas
+$ cd ~/notas-adesivas
 
 depois digite
 
 $ sudo sh install.sh
 
 Pronto!
+
+Desinstalar
+
+Um dos arquivos baixados é o unistall.sh. Supondo que você descompactou o arquivo .zip na pasta exemplo da instalação, para desinstalar o programa, basta abrir o terminal e digitar
+
+$ cd ~/notas-adesivas
+
+depois
+
+$ sudo sh uninstall.sh
