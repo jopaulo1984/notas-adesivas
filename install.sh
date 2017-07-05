@@ -1,5 +1,4 @@
 #!/bin/bash
-su
 
 sh uninstall.sh
 
@@ -15,7 +14,6 @@ cp ./notas-adesivas-gui.desktop /usr/share/applications/notas-adesivas-gui.deskt
 ln -s /usr/share/notas-adesivas/notas-adesivas-gui.py /usr/bin/notas-adesivas
 chmod 777 /usr/bin/notas-adesivas
 chmod 777 /usr/share/notas-adesivas/notas-adesivas.ico
-exit
-cp ./notas-adesivas-gui.desktop ~/.config/autostart/notas-adesivas-gui.desktop
-chmod 777 ~/.config/autostart/notas-adesivas-gui.desktop
+cp ./notas-adesivas-gui.desktop "${HOME}/.config/autostart/notas-adesivas-gui.desktop"
+chmod 777 "${HOME}/.config/autostart/notas-adesivas-gui.desktop"
 echo "Instalação concluída."
